@@ -1,0 +1,58 @@
+.App {
+    /*display: grid;*/
+    /*grid-template-rows: 2fr 1fr;*/
+    /*grid-template-areas:*/
+    /*        'd d'*/
+    /*        'b b';*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 70px auto 10px auto;
+    background-color: lightslategrey;
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.error {
+    color: red;
+}
+
+.display {
+    /*grid-area: d;*/
+    display: inline-block;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, .2);
+    width: 215px;
+    height: 80px;
+    border: 2px solid;
+    margin: 10px;
+}
+
+.button {
+    /*grid-area: b;*/
+    display: inline-block;
+    margin: 10px;
+    width: 100px;
+    height: 55px;
+    color: black;
+    font-weight: 700;
+    font-size: 1rem;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.button:hover {
+    background: rgba(255, 255, 255, .2);
+}
+
+.button:active {
+    background: white;
+}
